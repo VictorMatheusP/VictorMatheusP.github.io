@@ -1,0 +1,1280 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*Fonte utilizada pela Oi*/
+
+@font-face {
+    font-family: simplonbp;
+    src: url(fonts/simplonbp-regular-webfont.ttf);
+}
+
+ :root {
+    --white: #fff;
+    --green: #00d213;
+    --shadow: #333333;
+    --grey-black: #7c7c7c;
+    --grey-back: #f5f5f57e;
+    --grey: #7e7e7e;
+    --grey-letter: #686565;
+    --test-color: #d1d1d1;
+    --grey-place: #b3b3b3;
+    --grey-card: #F6F5F5;
+}
+
+
+/*FormulÃ¡rio de Vendas em 3 Etapas*/
+
+body {
+    font-family: simplonbp;
+}
+
+.container {
+    display: grid;
+    flex: 1;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.main_form {
+    padding: 3rem 5rem;
+}
+
+.logo img {
+    width: 5.5rem;
+}
+
+.logo_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_footer a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #000;
+    font-size: .8rem;
+}
+
+.logo_footer a:hover {
+    text-decoration: underline;
+}
+
+.logo_footer img {
+    width: 4rem;
+}
+
+.logo_1,
+.logo_2 {
+    margin: 0 .5rem 0 .5rem;
+}
+
+.logo_2 img {
+    width: 5.5rem;
+}
+
+.logo_1 img {
+    width: 6.5rem;
+}
+
+.info_seguranca {
+    display: flex;
+    align-items: inherit;
+    justify-content: space-between;
+}
+
+.nav_itens {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+    background-color: rgba(245, 245, 245, 0.315);
+    box-shadow: 5px 5px 20px rgb(236, 236, 236);
+}
+
+.progress-bar {
+    display: flex;
+}
+
+.container_geral {
+    display: flex;
+    align-items: inherit;
+    justify-content: center;
+    width: 100%;
+}
+
+/*Card de Oferta*/
+
+.card_dinamico {
+    padding: .5rem .5rem 1rem .5rem;
+}
+
+.card_oferta {
+    width: 15rem;
+    padding: 1rem;
+    background-color: #0B0D05;
+    border-radius: 15px;
+}
+
+.container_card {
+    padding: 1rem;
+}
+
+.card_header_dinamico h2 {
+    color: #17D615;
+    border-bottom: 2px dotted #fff;
+    padding-bottom: .5rem;
+    margin-top: 1rem;
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card_header_dinamico p {
+    color: #fff;
+    margin-top: 2rem;
+}
+
+ .box_valores_dinamico {
+      display: flex;
+  }
+
+  .card_price_dinamico {
+      width: 10rem;
+  }
+
+  .card_price_dinamico p {
+      font-size: .8rem;
+      color: rgb(156, 156, 156);
+      margin-bottom: .5rem;
+  }
+
+  .card_price_dinamico p span {
+      text-decoration: line-through;
+  }
+
+  .info_price {
+      width: 7rem;
+      margin-top: -2rem;
+      margin-left: 1rem;
+  }
+
+  .info_price p {
+    color: rgb(156, 156, 156);
+    font-size: .55rem;
+  }
+
+  .info_price_card_dinamico {
+    width: 11rem;
+    margin-top: -2rem;
+  }
+
+  .info_price_card_dinamico .value-1-card-dinamico {
+    font-size: 3rem;
+    margin-left: .3rem;
+    font-weight: bold;
+  }
+
+  .info_price_card_dinamico .value-small-card-dinamico {
+    padding-top: 7px;
+    font-size: 20px; 
+    margin-left: .2rem;
+    font-weight: bold;
+  }
+
+  .info_price_card_dinamico .value-year-card-dinamico {
+    margin-left: -1.7rem;
+    padding-top: 30px;
+    font-size: 15px; 
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .info_price_card_dinamico .value-caractere-card-dinamico {
+    padding-top: 28px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+
+  .value-component-card-dinamico {
+      display: flex;
+      flex-direction: row;
+  }
+
+
+.value-component-card-dinamico p {
+    color: #17D615;
+}
+
+/*Barra tÃ­tulo Ambiente de compra*/
+
+.title h2 {
+    margin-bottom: 2rem;
+}
+
+.title-nav {
+    display: flex;
+}
+
+.title-nav h1 {
+    font-size: 1.4rem;
+    margin-left: 1rem;
+}
+
+.title-nav .bi-lock {
+    font-size: 1.2rem;
+    margin-right: .5rem;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: inherit;
+    justify-content: center;
+}
+
+.field label {
+    margin-top: 1rem;
+}
+
+.button_form {
+    margin-top: 2rem;
+}
+
+.footer_form {
+    background-color: #a7a7a752;
+    width: 100%;
+}
+
+.footer_itens {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 5rem;
+}
+
+
+/*Estilo geral do formulÃ¡rio*/
+
+.container_form {
+    width: 70%;
+    padding: 0 4rem 0 1rem;
+}
+
+.title_page {
+    display: flex;
+    flex-direction: column;
+    align-items: inherit;
+    justify-content: center;
+    padding: 2rem 0 0 1rem;
+}
+
+.title_page h2 {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.title_page span {
+    width: 100%;
+    border-bottom: 2px solid var(--grey-place);
+    opacity: .2;
+    margin-bottom: 2rem;
+}
+
+.item_dados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item_dados h3 {
+    font-size: .8rem;
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+    font-weight: 500;
+}
+
+.indicador {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.indicador .line {
+    position: absolute;
+    top: 80%;
+    transform: translateY(-50%);
+    height: 4px;
+    background: #ddd;
+    width: 87%;
+    max-width: 100%;
+    left: 0;
+    z-index: 10;
+    margin-left: 2rem;
+}
+
+.indicador .line span {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--green);
+}
+
+.indicador .bola {
+    position: relative;
+    z-index: 20;
+    width: 30px;
+    height: 30px;
+    border: 5px solid var(--blue);
+    background: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    border-radius: 50%;
+    transition: 0.3s;
+    font-weight: bold;
+    font-size: 1rem;
+    color: var(--blue);
+}
+
+.indicador .bola.active {
+    border-color: var(--green);
+    color: #fff;
+    background: var(--green);
+}
+
+.indicador .bola .circle {
+    border: 1px solid #fff;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.tab {
+    display: none;
+}
+
+.tab.show {
+    display: block;
+}
+
+.tab p {
+    margin-bottom: 18px;
+}
+
+form .tab .form {
+    margin-bottom: 18px;
+    width: 100%;
+}
+
+.tab .form input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    height: 2.5rem;
+    padding-left: 1rem;
+    margin-top: .3rem;
+}
+
+.tab .btn_pagamento {
+    display: flex;
+}
+
+.form label {
+    color: var(--grey-letter);
+}
+
+.form input::placeholder {
+    color: rgb(197, 197, 197);
+}
+
+.form {
+    padding: .5rem 0 .5rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+form .btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+form .btn button.prev {
+    background-color: #fff;
+    opacity: .5;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+form .btn button.next {
+    background: var(--green);
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+form .btn button.next:hover {
+    background-color: #14df25;
+    opacity: .9;
+}
+
+form .btn button {
+    padding: 0;
+    margin-left: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.next,
+.prev {
+    width: 12rem;
+}
+
+form .btn button.next,
+form .btn button.prev {
+    padding: 1rem 1rem;
+}
+
+.bi-check-lg {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: .2rem;
+    margin-right: .1rem;
+}
+
+/*Estilo para os campos do formulÃ¡rio*/
+
+.form_colunas [class^=colunas3] {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.form_colunas2 [class^=colunas4] {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.form_colunas2 [class^=colunas4-2] {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.form_colunas2 [class^=colunas4-4] {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.form_colunas_debito [class^=colunas4] {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 0;
+}
+
+.form_colunas dl {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.field {
+    padding: .5rem;
+}
+
+.field input {
+    height: 2.5rem;
+}
+
+#idDadosDebito {
+    display: none;
+}
+
+
+/*Efeito para os campos do formulÃ¡rio*/
+
+:focus {
+    outline: none;
+}
+
+.col-3 {
+    float: left;
+    width: 100%;
+    margin: 15px 3%;
+    position: relative;
+}
+
+input[type="text"],
+input[type="tel"] {
+    font: 15px/24px "Lato", Arial, sans-serif;
+    color: #333;
+    width: 100%;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+.effect-moveup {
+    width: 100%;
+    border: 0;
+    padding: 3.5px 0;
+    border-bottom: 1px solid #ccc;
+    background-color: transparent;
+}
+
+.effect-moveup~.focus-border {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: grey;
+    transition: 0.4s;
+}
+
+.effect-moveup:focus~.focus-border,
+.has-content.effect-moveup~.focus-border {
+    width: 100%;
+    transition: 0.4s;
+}
+
+.effect-moveup~label {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    color: #aaa;
+    transition: 0.3s;
+    z-index: -1;
+}
+
+.effect-moveup:focus~label,
+.has-content.effect-moveup~label {
+    top: -27px;
+    font-size: 12px;
+    color: grey;
+    transition: 0.3s;
+}
+
+.label-select,
+.selecione {
+    color: grey;
+}
+
+/*Termos e condiÃ§Ãµes*/
+
+.termos {
+    margin: 4rem 0 2rem 1rem;
+}
+
+.box_termos {
+    display: flex;
+}
+
+.termos p {
+    margin-top: .3rem;
+    font-size: 1rem;
+}
+
+/*Concordo*/
+
+.concordo {
+    margin: 2rem 0 2rem 1rem;
+}
+
+.box_concordo {
+    display: flex;
+}
+
+.concordo p {
+    margin-top: .3rem;
+    font-size: 1rem;
+}
+
+/*Eslizando o Checkbox de termos e concordo*/
+
+.termos-checkbox,
+.concordo-checkbox {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.termos-checkbox input,
+.concordo-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.termos-checkbox .checkmark-box,
+.concordo-checkbox .checkmark-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    border: 1px solid grey;
+}
+
+.termos-checkbox a,
+.concordo-checkbox a {
+    color: #00d213;
+}
+
+.termos-checkbox input:checked~.checkmark-box,
+.concordo-checkbox input:checked~.checkmark-box {
+    background-color: #00d213;
+    border: 1px solid #00d213;
+}
+
+.termos-checkbox .checkmark-box:after,
+.concordo-checkbox .checkmark-box:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.termos-checkbox input:checked~.checkmark-box:after,
+.concordo-checkbox input:checked~.checkmark-box:after {
+    display: block;
+}
+
+.termos-checkbox .checkmark-box:after,
+.concordo-checkbox .checkmark-box:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/*Estilo escolha data de vencimento*/
+
+.title-data-venc p {
+    margin: .2rem 0 0 .5rem;
+    font-weight: 600;
+}
+
+.title-data-venc {
+    display: flex;
+    margin-left: .5rem;
+}
+
+/*EstilizaÃ§Ã£o dos input type="radio"*/
+
+.label-opcao-numero-ex {
+    display: block;
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 12px;
+    margin-left: 1rem;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.label-opcao-numero-ex input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: .5rem;
+    height: 25px;
+    width: 25px;
+    background-color: #fff;
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 50%;
+    margin-top: -0.3rem;
+}
+
+.label-opcao-numero-ex input:checked~.checkmark {
+    background-color: #00d213;
+    border: 1px solid #00d213;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.label-opcao-numero-ex input:checked~.checkmark:after {
+    display: block;
+}
+
+.label-opcao-numero-ex .checkmark:after {
+    top: 8px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+.label-venc {
+    display: block;
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.label-venc input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.datas {
+    display: flex;
+    margin-left: .5rem;
+}
+
+.datas .dia p {
+    padding-left: -1.5rem;
+    margin-left: -2.15rem;
+    margin-top: .6rem;
+    font-size: .8rem;
+    z-index: 1;
+    position: absolute;
+}
+
+.checkmark_venc {
+    position: absolute;
+    top: .5rem;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #fff;
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 50%;
+    margin-top: -0.3rem;
+}
+
+.label-venc input:checked~.checkmark_venc {
+    background-color: #00d213;
+    border: 1px solid #00d213;
+}
+
+.checkmark_venc:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.label-venc input:checked~.checkmark_venc:after {
+    display: block;
+}
+
+.label-opcao-numero {
+    margin-top: -2.5rem;
+}
+
+.label-num-atual p {
+    text-align: left;
+    margin-top: -5rem;
+    padding-bottom: .5rem;
+    font-weight: 600;
+    font-size: .9rem;
+    color: grey;
+}
+
+/*ATENÃ‡ÃƒO pagamento no boleto*/
+
+.label-pag-boleto p {
+    font-weight: 600;
+    margin-left: .5rem;
+}
+
+.label-pag-boleto span {
+    color: red;
+}
+
+/*Forma de pagamento*/
+
+.box-forma-pag {
+    display: flex;
+    margin-left: -0.5rem;
+}
+
+.boleto p,
+.debito p {
+    font-size: 1rem;
+}
+
+/* Cor de fundo do autocomplete */
+
+input:-webkit-autofill {
+    box-shadow: 0 0 0 30px white inset;
+}
+
+/* Checkmark */
+
+.indicador .bola .check {
+    color: #fff;
+}
+
+.indicador .bola .check.stepUnchecked {
+    display: none;
+}
+
+.indicador .bola .circle.circleInvisible {
+    display: none;
+    
+}
+
+/* MODAL CONTAINER */
+
+.modal-container {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+  
+.modal-container.mostrar {
+    display: flex;
+}
+  
+.modal {
+    background: #fff;
+    width: 55%;
+    border: 3px solid #00d213;
+    position: relative;
+}
+  
+@keyframes modal {
+    from {
+      opacity: 0;
+      transform: translate3d(0, -60px, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+}
+  
+.mostrar .modal {
+    animation: modal 1.5s;
+}
+  
+#fechar {
+    position: absolute;
+    font-size: 1.2em;
+    font-weight: bold;
+    top: -0.2rem;
+    right: -0.15rem;
+    width: 30px;
+    height: 30px;
+    border: 3px solid #00d213;
+    background: #fff;
+    color: #00d213;
+    cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+  
+#fechar:hover {
+    background: #00d213;
+    color: #fff;
+}
+
+.container-pedido {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-pedido {
+    width: 65%;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-pedido {
+    width: 35%;
+    height: 470px;
+    background-image: url("img/modalbanner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title-pedido {
+    display: flex;
+    align-items: center;
+}
+
+.title-text-pedido {
+    display: flex;
+}
+
+.title-text-pedido h3 {
+ 
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-left: 1rem;
+}
+
+.title-text-pedido .material-icons {
+    color: #00d213;
+    margin-left: .5rem;
+}
+
+.container-infos-pedido {
+    width: 70%;
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border: 2px solid #00d213;
+    margin-left: 2rem;
+}
+
+.container-infos-pedido p {
+    font-weight: 600;
+    font-size: 1rem;
+    color: rgb(29, 29, 29);
+}
+
+.contato-duvidas {
+    margin-top: 1rem;
+}
+
+.contato-pedido a {
+    color: #00d213;
+    text-decoration: none;
+    font-size: 1.2rem!important;
+}
+
+.contato-pedido a:hover {
+    text-decoration: underline;
+}
+
+.icons-pedido {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.icons-pedido p {
+    font-size: 1.1rem;
+    color: rgb(29, 29, 29);
+    font-weight: 600;
+}
+
+.icons-seguranca .pedido-1 {
+    width: 4rem;
+}
+
+.icons-seguranca .pedido-2 {
+    width: 3.2rem;
+}
+
+.botoes-pedido {
+    width: 80%;
+    padding-top: 3rem;
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botoes-pedido a {
+    text-decoration: none;
+}
+
+.botoes-pedido .pagina-inicial button {
+    padding: 1rem 5rem 1rem 5rem;
+    border: 2px solid #00d213;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #00d213;
+}
+
+.botoes-pedido .pagina-inicial button:hover {
+    border: 2px solid #1ff130;
+    text-decoration: underline;
+    background-color: #1ff130;
+}
+
+/*Barra Inidicadora*/
+@media(min-width:1550px) {
+    .indicador .line {
+        width: 90%;
+    }
+}
+
+/*Mobile*/
+
+@media (max-width: 900px) {
+    .container,
+    .header_form,
+    .footer_form {
+        width: 100%;
+    }
+
+    .logo img {
+        width: 4rem;
+    }
+
+    .title-nav {
+        align-items: center;
+    }
+
+    .title-nav h1 {
+        font-size: .9rem;
+        margin-left: .3rem;
+    }
+
+    .material-icons {
+        font-size: 18px!important;
+    }
+
+    .nav_itens {
+        padding: 1rem;
+    }
+
+    .item_dados h3 {
+        font-size: .65rem;
+        text-align: center;
+    }
+
+    .item_dados {
+        width: 4.5rem;
+        padding: 0 .5rem 0 .5rem;
+    }
+
+    .indicador .line {
+        top: 83%;
+        width: 75%;
+    }
+
+    .card_header_dinamico h2 {
+        font-size: 3rem;
+    }
+
+    .info_price {
+        margin-left: 0;
+    }
+
+    .info_price p {
+        font-size: .7rem;
+    }
+
+    .card_price_dinamico p {
+        font-size: 1rem;
+    }
+
+    .container_geral {
+        flex-direction: column-reverse;
+    }
+
+    .footer_itens {
+        padding: 1rem;
+    }
+
+    .logo_1 img {
+        width: 5rem;
+    }
+
+    .logo_2 img {
+        width: 4rem;
+    }
+
+    .main_form {
+        padding: .5rem .5rem 2.5rem .5rem;
+    }
+    .container_form {
+        width: 100%;
+        padding: 0;
+    }
+    .form_colunas [class^=colunas3] {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .col-3 {
+        margin: 10px 0%;
+    }
+    .form_colunas2 [class^=colunas4] {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .form_colunas2 [class^=colunas4-2] {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .form_colunas2 [class^=colunas4-4] {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .form_colunas_debito [class^=colunas4] {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+    }
+    .container_card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    form .btn button {
+        margin-left: 0;
+    }
+    .next,
+    .prev {
+        width: 100%;
+    }
+    .card_oferta {
+        height: 100%;
+    }
+    form .btn button.prev {
+        border: 1px solid rgb(216, 216, 216);
+        margin-right: .2rem;
+        font-size: .9rem;
+    }
+
+    form .btn button.next {
+        font-size: .9rem;
+    }
+
+    .title_page {
+        padding: 2rem 0 0 .5rem;
+    }
+    
+    .title_page h2 {
+        padding-bottom: .5rem;
+    }
+
+    .debito p,
+    .boleto p {
+        font-size: .9rem;
+    }
+
+    .label-pag-boleto p {
+        font-size: .85rem;
+    }
+
+    .termos p {
+        font-size: .85rem;
+    }
+
+    .concordo p {
+        font-size: .7rem;
+    }
+
+    .modal {
+        width: 80%;
+    }
+
+
+    .banner-pedido {
+        display: none;
+    }
+
+    .box-pedido {
+        width: 100%;
+    }
+
+    .title-pedido {
+        padding: 1.5rem 1rem 1rem 1rem;
+    }
+
+    .title-text-pedido h3 {
+        font-size: 1.2rem;
+        text-align: center;
+        margin-left: .5rem;
+    }
+
+    .title-text-pedido .material-icons {
+        font-size: 30px!important;
+    }
+
+    .logo-pedido img {
+        width: 2.5rem;
+    }
+
+    .container-infos-pedido {
+        margin: 1rem .5rem 0 .5rem;
+    }
+
+    .icons-seguranca {
+        display: flex;
+        margin-left: .5rem;
+    }
+
+    .icons-seguranca .pedido-1,
+    .icons-seguranca .pedido-2 {
+        margin-right: .5rem;
+    }
+
+    .botoes-pedido {
+        width: 100%;
+        margin-left: 0;
+        padding: 2rem .5rem 1rem .5rem;
+    }
+
+    .botoes-pedido .pagina-inicial button {
+        padding: 1rem 5rem;
+        font-size: .75rem;
+    }
+
+}
+.is-invalid{
+    color: red !important;
+}
+.is-valid{
+    color: #0cd10c !important;
+}
